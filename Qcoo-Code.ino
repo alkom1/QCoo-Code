@@ -1,4 +1,4 @@
- #include <EEPROM.h>
+#include <EEPROM.h>
 #include "I2Cdev.h"
 #include "MPU6050_6Axis_MotionApps20.h"
 #include <Wire.h>
@@ -23,7 +23,7 @@
 #define RESET 4
 #define START 5
 
-#define MPU_ADDR 0x68
+#define MPU_ADDR 0x68 //Gyro + acce address
 #define MEM_START_ADDR 0x6E
 #define MEM_R_W 0x6F
 
